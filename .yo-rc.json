@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "org.iioe"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "hellocucumber",
+    "packageName": "org.iioe",
+    "packageFolder": "org/iioe",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MDlkODQ4N2I1MjNkNmNhYjA2NTlmZjIwNjIwMDQwMjZlYTNjYWJiMjZiNThiYTE5MTBlZmIwZjViMWE1NTQ1NWQwMWNiZWY5YmM3N2MwNDIxODMyNzY4ZjUzNzRjMmZjYjQ2ZDk2OWIxNjMzYWQxZTM1Njc4NTliM2RjNjQ1ZTI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1623074323810,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
