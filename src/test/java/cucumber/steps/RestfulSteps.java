@@ -19,13 +19,13 @@ public class RestfulSteps {
     private String actualAnswer;
 
     @Given("today is {string}")
-    public void todayIs(String dayString) {
-        today = dayString;
+    public void todayIs(String today) {
+        this.today = today;
     }
 
     @When("I ask whether it's Friday yet")
     public void i_ask_whether_it_s_friday_yet() {
-        actualAnswer = IsFriday.isFriday(today);
+        this.actualAnswer = IsFriday.isFriday(today);
     }
 
     @Then("I should be told {string}")
